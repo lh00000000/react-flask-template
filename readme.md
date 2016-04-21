@@ -4,7 +4,7 @@ uses:
 - redux
 - flask (gunicorn)
 
-build semantic ui 
+build semantic ui (only have to do this once)
 $ cd client/semantic
 $ gulp build
 
