@@ -14,9 +14,9 @@ $ gulp build
 
 dev client_side
 $ cd client
-$ webpack-dev-server --content-base ..
-# go to http://0.0.0.0:8080/webpack-dev-server/
-# navigate to server/dev-index
+$ webpack-dev-server --content-base .. --inline --hot
+go to http://0.0.0.0:8080/webpack-dev-server/
+navigate to server/dev-index
 
 build client-side code
 $ cd client
